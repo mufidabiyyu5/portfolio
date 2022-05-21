@@ -1,0 +1,16 @@
+{
+    "selected": [
+        {
+            "_id": "Project_1",
+            "titleName": "UI/UX Redesign",
+            "projectName": "IKEA Indonesia App",
+            "image": "./images/Project_1.png"
+        },
+        {
+            "_id": "Project_2",
+            "titleName": "UI/UX",
+            "projectName": "ACE Indonesia App",
+            "image": "./images/Project_1.png"
+        }
+    ]
+}

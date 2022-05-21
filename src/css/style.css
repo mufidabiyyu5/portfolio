@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: 'Poppins';
+}
+
+nav {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+nav .nav-item a {
+  color: #181818 !important;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-left: 2rem;
+}
+
+nav .nav-item a:hover {
+  color: #764AF1 !important;
+}
+
+.hero span {
+  color: #181818;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.hero h1 {
+  color: #181818;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.hero h1 label {
+  color: #764AF1;
+}
+
+.hero p {
+  color: #181818;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 1rem;
+}
+
+main h2 {
+  color: #181818;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+main .card {
+  border: none;
+}
+
+main .card .card-body {
+  margin: 1rem 0 2rem 0;
+  padding: 0;
+}
+
+main .card .card-body h3 {
+  color: #181818;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+main .card .card-body a {
+  text-decoration: none;
+}
+
+main .card .card-body a img {
+  color: #764AF1;
+  margin-right: 0.5rem;
+}
+
+main .card .card-body a span {
+  color: #181818;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+main .card .card-body a span:hover {
+  color: #764AF1;
+  text-decoration: underline;
+}
+
+footer a {
+  text-decoration: none;
+  margin-right: 2rem;
+}
+
+footer a svg {
+  fill: #181818;
+  width: 2rem;
+  height: 2rem;
+}
+
+footer a svg:hover {
+  fill: #764AF1;
+}
+
+footer p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #181818;
+}
+
+.title-section label {
+  margin-left: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #181818;
+}
+
+.title-section .title {
+  margin: 4.5rem 0 4.5rem 0;
+}
+
+.title-section .title .main-title {
+  color: #764AF1;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.title-section .title .sub-title {
+  color: #181818;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.title-img {
+  margin-bottom: 4.5rem;
+}
+
+section h2 {
+  color: #764AF1;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.overview-section {
+  margin-bottom: 4.5rem;
+}
+
+.overview-section .overview-content {
+  margin-bottom: 2rem;
+}
+
+.overview-section .overview-content h3 {
+  color: #181818;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.overview-section .overview-content p {
+  color: #181818;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.process-section {
+  margin-bottom: 4.5rem;
+}
+
+.process-section .card {
+  border: none;
+}
+
+.process-section .card .card-body {
+  margin-top: 1.5rem;
+}
+
+.process-section .card .card-body span {
+  color: #181818;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.step-section {
+  margin-bottom: 4.5rem;
+}
+
+.step-section .step-content {
+  margin-bottom: 2rem;
+}
+
+.step-section .step-content h3 {
+  color: #181818;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.step-section .step-content p {
+  color: #181818;
+  font-size: 1rem;
+  font-weight: 400;
+}
+/*# sourceMappingURL=style.css.map */

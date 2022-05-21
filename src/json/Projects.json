@@ -1,0 +1,37 @@
+{
+    "projects": [
+        {
+            "_id": "Project_1",
+            "titleName": "UI/UX Redesign",
+            "projectName": "IKEA Indonesia App",
+            "image": "/images/Project_1.png",
+            "arrayOverview": [
+                {
+                    "title": "Background",
+                    "desc": "Yes, as we all know, IKEA is one of the largest companies in the world for home furnishing, this Swedish company offers simple and attractive household products. Then IKEA Indonesia launched a mobile application to provide an easier shopping experience for household furniture online or in stores."
+                },
+                {
+                    "title": "Objective",
+                    "desc": "Yes"
+                }
+            ]
+            
+        },
+        {
+            "_id": "Project_2",
+            "titleName": "UI/UX",
+            "projectName": "ACE Indonesia App",
+            "image": "/images/Project_1.png",
+            "arrayOverview": [
+                {
+                    "title": "Background",
+                    "desc": "Yes, as we all know, IKEA is one of the largest companies in the world for home furnishing, this Swedish company offers simple and attractive household products. Then IKEA Indonesia launched a mobile application to provide an easier shopping experience for household furniture online or in stores."
+                },
+                {
+                    "title": "Objective",
+                    "desc": "Yes"
+                }
+            ]
+        }
+    ]
+}
