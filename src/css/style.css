@@ -1,117 +1,128 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 body {
-  font-family: 'Poppins';
+  font-family: 'Inter', sans-serif;
+  background: #222831 !important;
+  color: #ffffff !important;
 }
 
 nav {
   margin-top: 2rem;
   margin-bottom: 2rem;
+  position: -webkit-sticky !important;
+  position: sticky !important;
+  top: 0;
+  background-color: #222831;
+  z-index: 1;
 }
 
-nav .nav-item a {
-  color: #181818 !important;
-  font-size: 1rem;
-  font-weight: 400;
+nav .nav-item {
   margin-left: 2rem;
 }
 
+nav .nav-item a {
+  color: #eeeeee !important;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
 nav .nav-item a:hover {
-  color: #764AF1 !important;
+  color: #FFD369 !important;
+}
+
+.hero {
+  margin: 7.75rem;
 }
 
 .hero span {
-  color: #181818;
   font-size: 1rem;
   font-weight: 500;
   margin-bottom: 1rem;
 }
 
-.hero h1 {
-  color: #181818;
-  font-size: 2.5rem;
-  font-weight: 600;
+.hero .name {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 3.5rem;
+  margin-bottom: 0.5rem;
 }
 
-.hero h1 label {
-  color: #764AF1;
+.hero .name label {
+  color: #FFD369;
+}
+
+.hero .occupation {
+  font-weight: 700;
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  color: #FFD369;
 }
 
 .hero p {
-  color: #181818;
-  font-size: 1rem;
-  font-weight: 400;
-  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 
-main h2 {
-  color: #181818;
-  font-size: 2rem;
+.content-section {
+  margin: 3.5rem 0;
+}
+
+.content-section h2 {
   font-weight: 600;
-  margin-bottom: 1.5rem;
+  font-size: 2rem;
 }
 
-main .card {
-  border: none;
+.content-section .card-project {
+  margin: 2rem 0;
 }
 
-main .card .card-body {
-  margin: 1rem 0 2rem 0;
-  padding: 0;
+.content-section .card-project .card-project-body {
+  margin: 1rem 0;
 }
 
-main .card .card-body h3 {
-  color: #181818;
+.content-section .card-project .card-project-body h3 {
   font-size: 1.5rem;
   font-weight: 500;
   margin-bottom: 1rem;
 }
 
-main .card .card-body a {
+.content-section .card-project .card-project-body .card-project-desc {
+  margin-bottom: 1rem;
+}
+
+.content-section .card-project .card-project-body a {
+  margin-left: 1rem;
+  color: #7a7a7a;
   text-decoration: none;
-}
-
-main .card .card-body a img {
-  color: #764AF1;
-  margin-right: 0.5rem;
-}
-
-main .card .card-body a span {
-  color: #181818;
-  font-size: 1rem;
   font-weight: 500;
 }
 
-main .card .card-body a span:hover {
-  color: #764AF1;
+.content-section .card-project .card-project-body a:hover {
+  color: #FFD369;
   text-decoration: underline;
 }
 
 footer a {
-  text-decoration: none;
   margin-right: 2rem;
 }
 
 footer a svg {
-  fill: #181818;
-  width: 2rem;
-  height: 2rem;
+  fill: #7a7a7a;
 }
 
 footer a svg:hover {
-  fill: #764AF1;
+  fill: #FFD369;
 }
 
 footer p {
   font-size: 1.5rem;
   font-weight: 400;
-  color: #181818;
+  color: #7a7a7a;
 }
 
 .title-section label {
   margin-left: 0.5rem;
   font-size: 1rem;
   font-weight: 500;
-  color: #181818;
 }
 
 .title-section .title {
@@ -119,13 +130,12 @@ footer p {
 }
 
 .title-section .title .main-title {
-  color: #764AF1;
+  color: #FFD369;
   font-size: 2.5rem;
   font-weight: 600;
 }
 
 .title-section .title .sub-title {
-  color: #181818;
   font-size: 2.5rem;
   font-weight: 600;
 }
@@ -134,70 +144,66 @@ footer p {
   margin-bottom: 4.5rem;
 }
 
-section h2 {
-  color: #764AF1;
+.desc-section p {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin: 5rem;
+}
+
+.default-section div {
+  margin: 4rem 5rem;
+}
+
+.default-section h2 {
   font-size: 2rem;
   font-weight: 600;
-  margin-bottom: 1.5rem;
-}
-
-.overview-section {
-  margin-bottom: 4.5rem;
-}
-
-.overview-section .overview-content {
-  margin-bottom: 2rem;
-}
-
-.overview-section .overview-content h3 {
-  color: #181818;
-  font-size: 1.5rem;
-  font-weight: 600;
   margin-bottom: 1rem;
+  color: #FFD369;
 }
 
-.overview-section .overview-content p {
-  color: #181818;
+.default-section p {
   font-size: 1rem;
-  font-weight: 400;
-}
-
-.process-section {
-  margin-bottom: 4.5rem;
-}
-
-.process-section .card {
-  border: none;
-}
-
-.process-section .card .card-body {
-  margin-top: 1.5rem;
-}
-
-.process-section .card .card-body span {
-  color: #181818;
-  font-size: 1.5rem;
   font-weight: 500;
+  color: #7a7a7a;
 }
 
-.step-section {
-  margin-bottom: 4.5rem;
+.default-section p:hover {
+  color: #ffffff;
 }
 
-.step-section .step-content {
-  margin-bottom: 2rem;
+.process-section .wrapper {
+  margin: 4rem 5rem;
 }
 
-.step-section .step-content h3 {
-  color: #181818;
-  font-size: 1.5rem;
+.process-section .wrapper h2 {
+  font-size: 2rem;
   font-weight: 600;
   margin-bottom: 1rem;
+  color: #FFD369;
 }
 
-.step-section .step-content p {
-  color: #181818;
+.process-section .wrapper .process-wrapper {
+  color: #7a7a7a;
+}
+
+.process-section .wrapper .process-wrapper:hover {
+  color: #ffffff;
+}
+
+.process-section .wrapper span {
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 500;
+  margin-right: 0.25rem;
+}
+
+.process-section .wrapper a {
+  color: #FFD369;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.process-section .wrapper a:hover {
+  color: #7a7a7a;
+  text-decoration: underline;
 }
 /*# sourceMappingURL=style.css.map */

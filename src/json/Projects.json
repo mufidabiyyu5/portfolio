@@ -4,24 +4,84 @@
             "_id": "Project_1",
             "titleName": "UI/UX Redesign",
             "projectName": "IKEA Indonesia App",
-            "image": "/images/Project_1.png",
+            "image": "./assets/images/ikea.png",
+            "overview": "Who doesn't know IKEA? Yes, as we all know, IKEA is one of the largest companies in the world for home furnishing, this Swedish company offers simple and attractive household products. Then IKEA Indonesia launched a mobile application to provide an easier shopping experience for household furniture online or in stores.",
             "arrayOverview": [
                 {
-                    "title": "Background",
-                    "desc": "Yes, as we all know, IKEA is one of the largest companies in the world for home furnishing, this Swedish company offers simple and attractive household products. Then IKEA Indonesia launched a mobile application to provide an easier shopping experience for household furniture online or in stores."
+                    "title": "Problem Statement",
+                    "desc": "Based on the results of a review on the google play store, many users of the IKEA Indonesia application complained that the application was difficult to use. Don't know why they made it like that, but having a good mobile application/website in addition to increasing sales, will certainly increase the branding side of the company."
                 },
                 {
                     "title": "Objective",
-                    "desc": "Yes"
+                    "desc": "Understanding user pain points when using the IKEA Indonesia application."
+                },
+                {
+                    "title": "My Role",
+                    "desc": "My role as a product designer and because this is a fake case study, so I do all the design process. From interviewed customer to design end-to-end."
+                },
+                {
+                    "title": "Tools",
+                    "desc": "Google Meet, Notion, Miro, and Figma"
                 }
-            ]
+            ],
+            "process": [
+                {
+                    "title": "Interview - ",
+                    "link": null
+                },
+                {
+                    "title": "Observation - ",
+                    "link": null
+                },
+                {
+                    "title": "Affinity Map",
+                    "link": "https://drive.google.com/file/d/1lMBOo51IRUXXWPMGT1SbrDPzV5HFLsvM/view?usp=sharing"
+                },
+                {
+                    "title": "Competitive Analysis",
+                    "link": "https://drive.google.com/file/d/1ssdOwkdpud5W-HYn3YFU-0LFBE7uBS2v/view?usp=sharing"
+                },
+                {
+                    "title": "User Persona",
+                    "link": "https://drive.google.com/file/d/1JOXZhM1XtigQYJwstJE3Vgyh_CA7Hjha/view?usp=sharing"
+                },
+                {
+                    "title": "How Might We",
+                    "link": "https://drive.google.com/file/d/1gRZsn-AZrC3zLDOiDRgHmLXx5K7JdU-7/view?usp=sharing"
+                },
+                {
+                    "title": "Solution Idea",
+                    "link": "https://drive.google.com/file/d/1NM2PNEOg3XB6KVmKgSG9W-PkeG1yJx6U/view?usp=sharing"
+                },
+                {
+                    "title": "Prioritization Matrix",
+                    "link": "https://drive.google.com/file/d/16TamiRexSEA03Yy7VHSNgsO8L7mztyr9/view?usp=sharing"
+                },
+                {
+                    "title": "MVP User Flow",
+                    "link": "https://drive.google.com/file/d/1-RZZmEXASmIdxTC7GO1wcn4C_m2GVI2s/view?usp=sharing"
+                },
+                {
+                    "title": "Design System",
+                    "link": "https://drive.google.com/file/d/1mgMQ5DOV1DB3074Fqwr5z-Gio3sC0u37/view?usp=sharing"
+                },
+                {
+                    "title": "Prototype",
+                    "link": "https://www.figma.com/proto/6VRoKkCEb14LGL4XbWt5V5/Challenge-6?page-id=3%3A2&node-id=5%3A2&viewport=316%2C377%2C0.14&scaling=scale-down&starting-point-node-id=17%3A1652"
+                },
+                {
+                    "title": "Test",
+                    "link": null
+                }
+            ],
+            "conclusion": "Based on the results of testing, there are still shortcomings of the prototype. However, the result of the redesign of the IKEA Indonesia application prototype, got a very good score. Where according to the user visually the application is good such as color selection, and layouting. Then most users can easily find the main features of the application, and easily understand the flow of the application."
             
         },
         {
             "_id": "Project_2",
             "titleName": "UI/UX",
             "projectName": "ACE Indonesia App",
-            "image": "/images/Project_1.png",
+            "image": "./assets/images/ikea.png",
             "arrayOverview": [
                 {
                     "title": "Background",

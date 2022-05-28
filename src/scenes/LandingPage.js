@@ -13,5 +13,5 @@ export default function LandingPage(){
         <Header></Header>
         <Selected data={SelectedData.selected}></Selected>
         <Footer></Footer>
-    </>
+    </>;
 }

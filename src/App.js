@@ -1,21 +1,19 @@
 import React from 'react'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Routes, Route } from 'react-router-dom';
 
-import logo from './logo.svg';
+import './css/style.css'
 
 import Landing from "./scenes/LandingPage";
 import Projects from './scenes/Projects'
 
 function App() {
-  return (
-    <div className='App'>
+  return <>
         <Routes>
           <Route path="/" element={<Landing/>} />
           <Route path="Projects/:id" element={<Projects/>} />
         </Routes>
       
-    </div>
-  );
+    </>;
 }
 
 export default App;

@@ -1,110 +1,113 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 body{
-    font-family: 'Poppins';
-}
+    font-family: 'Inter', sans-serif;
+    background: #222831 !important;
+    color: #ffffff !important;
+} 
 
 nav{
     margin-top: 2rem;
     margin-bottom: 2rem;
+    position: sticky !important;
+    top: 0;
+    background-color: #222831;
+    z-index: 1;
 
     .nav-item{
+        margin-left: 2rem;
+
         a{
-            color: #181818 !important;
+            color: #eeeeee !important;
             font-size: 1rem;
-            font-weight: 400;
-            margin-left: 2rem;
+            font-weight: 500;
 
             &:hover{
-                color: #764AF1 !important;
+                color: #FFD369 !important;
             }
-        } 
+        }
     }
 }
 
 .hero{
+    margin: 7.75rem;
 
     span{
-        color: #181818;
         font-size: 1rem;
         font-weight: 500;
         margin-bottom: 1rem;
     }
-
-    h1{
-        color: #181818;
-        font-size: 2.5rem;
-        font-weight: 600;
+    .name{
+        color: #ffffff;
+        font-weight: 700;
+        font-size: 3.5rem;
+        margin-bottom: 0.5rem;
 
         label{
-            color: #764AF1;
+            color: #FFD369;
         }
     }
 
+    .occupation{
+        font-weight: 700;
+        font-size: 3.5rem;
+        margin-bottom: 1rem;
+        color: #FFD369;
+        
+        // font-size: 190px;
+    }
+
     p{
-        color: #181818;
-        font-size: 1rem;
-        font-weight: 400;
-        margin-top: 1rem;
+        font-size: 1.5rem;
+        font-weight: 500;
     }
 }
 
-main{
+.content-section{
+    margin: 3.5rem 0;
     h2{
-        color: #181818;
-        font-size: 2rem;
         font-weight: 600;
-        margin-bottom: 1.5rem;
+        font-size: 2rem;
     }
 
-    .card{
-        border: none;
-
-        .card-body{
-            margin: 1rem 0 2rem 0;
-            padding: 0;
+    .card-project{
+        margin: 2rem 0;
+        .card-project-body{
+            margin: 1rem 0;
 
             h3{
-                color: #181818;
                 font-size: 1.5rem;
                 font-weight: 500;
                 margin-bottom: 1rem;
             }
 
-            a{
-                text-decoration: none;
-                img{
-                    color: #764AF1;
-                    margin-right: 0.5rem;
-                }
-                
-                span{
-                    color: #181818;
-                    font-size: 1rem;
-                    font-weight: 500;
+            .card-project-desc{
+                margin-bottom: 1rem;
+            }
 
-                    &:hover{
-                        color: #764AF1;
-                        text-decoration: underline;
-                    }
+            a{
+                margin-left: 1rem;
+                color: #7a7a7a;
+                text-decoration: none;
+                font-weight: 500;
+
+                &:hover{
+                    color: #FFD369;
+                    text-decoration: underline;
                 }
             }
         }
-    } 
+    }
 }
 
 footer{
     a{
-        text-decoration: none;
         margin-right: 2rem;
-
         svg{
-            fill: #181818;
-            width: 2rem;
-            height: 2rem;
+            fill: #7a7a7a;
 
             &:hover{
-                fill: #764AF1;
+                fill: #FFD369;
             }
         }
     }
@@ -112,106 +115,103 @@ footer{
     p{
         font-size: 1.5rem;
         font-weight: 400;
-        color: #181818;
+        color: #7a7a7a;
     }
 }
 
-.title-section{
-    label{
+.title-section {
+    label {
         margin-left: 0.5rem;
         font-size: 1rem;
         font-weight: 500;
-        color: #181818;
     }
 
-    .title{
+    .title {
         margin: 4.5rem 0 4.5rem 0;
-        
-        .main-title{
-            color: #764AF1;
+
+        .main-title {
+            color: #FFD369;
             font-size: 2.5rem;
             font-weight: 600;
 
         }
 
-        .sub-title{
-            color: #181818;
+        .sub-title {
             font-size: 2.5rem;
             font-weight: 600;
         }
     }
+} 
 
-
-}  
-
-.title-img{
+.title-img {
     margin-bottom: 4.5rem;
 }
 
-section{
+.desc-section{
+    p{
+        font-size: 1.25rem;
+        font-weight: 500;
+        margin: 5rem;
+    }
+}
+
+.default-section{
+    div{
+        margin: 4rem 5rem;
+    }
     h2{
-        color: #764AF1;
         font-size: 2rem;
         font-weight: 600;
-        margin-bottom: 1.5rem;
+        margin-bottom: 1rem;
+        color: #FFD369;
     }
-}
 
-.overview-section{
-    margin-bottom: 4.5rem;
+    p{
+        font-size: 1rem;
+        font-weight: 500;
+        color: #7a7a7a;
 
-    .overview-content{
-        margin-bottom: 2rem;
-        h3{
-            color: #181818;
-            font-size: 1.5rem;
-            font-weight: 600;
-            margin-bottom: 1rem;
-        }
-
-        p{
-            color: #181818;
-            font-size: 1rem;
-            font-weight: 400;
+        &:hover{
+            color: #ffffff;
         }
     }
-    
 }
 
 .process-section{
-    margin-bottom: 4.5rem;
+    .wrapper{
+        margin: 4rem 5rem;
 
-    .card{
-        border: none;
-
-        .card-body{
-            margin-top: 1.5rem;
-            
-            span{
-                color: #181818;
-                font-size: 1.5rem;
-                font-weight: 500;
-            }
-        }   
-    }
-}
-
-.step-section{
-    margin-bottom: 4.5rem;
-    
-    .step-content{
-        margin-bottom: 2rem;
-        h3{
-            color: #181818;
-            font-size: 1.5rem;
+        h2{
+            font-size: 2rem;
             font-weight: 600;
             margin-bottom: 1rem;
+            color: #FFD369;
         }
 
-        p{
-            color: #181818;
+        .process-wrapper{
+            color: #7a7a7a;
+
+            &:hover{
+                color: #ffffff;
+            }
+        }
+
+        span{
             font-size: 1rem;
-            font-weight: 400;
+            font-weight: 500;
+            margin-right: 0.25rem;
+
+        }
+
+        a{
+            color: #FFD369;
+            text-decoration: none;
+            font-weight: 600;
+
+            &:hover{
+                color: #7a7a7a;
+                text-decoration: underline;
+            }
         }
     }
 }

@@ -3,26 +3,28 @@ import { Link } from 'react-router-dom'
 
 import Logo from '../assets/images/Mufid_logo.png'
 
+
 export default function Navbar(props){
     return(
-        <nav className="navbar navbar-expand-lg navbar-light">
-        <div className="container container-fluid">
-            <Link className="navbar-brand" to="#">
-                <img src={Logo} alt="Mufid's Logo"/>
+        <nav className="navbar navbar-expand-lg navbar-dark my-3">
+        <div className="container">
+            <Link className="navbar-brand" to={'/'}>
+                <img src={Logo} alt="Logo" />
             </Link>
-            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
-            <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav ms-auto">
                     <li className="nav-item">
-                        <Link className="nav-link" to="#">Projects</Link>
+                        <a className="nav-link" href="#">Projects</a>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" to="#">Resume</Link>
+                        <a className="nav-link" href="#">Resume</a>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" to="#">Contact</Link>
+                        <a className="nav-link" href="#">Contact</a>
                     </li>
                 </ul>
             </div>
